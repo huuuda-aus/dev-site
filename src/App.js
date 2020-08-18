@@ -11,7 +11,8 @@ function App() {
         under construction
       </content>
       <footer>
-        {`${process.env.REACT_APP_NAME} ${process.env.REACT_APP_VERSION}`}
+        <span>&copy; Huuuda</span>
+        <span>v{process.env.REACT_APP_VERSION}</span>
       </footer>
     </div>
   );
