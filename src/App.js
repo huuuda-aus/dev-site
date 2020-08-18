@@ -19,7 +19,7 @@ function App() {
       </header>
       <content>
         <Router>
-          <sidebar>
+          <aside>
             <ul>
               <li>
                 <Link to="/">Home</Link>
@@ -28,7 +28,7 @@ function App() {
                 <Link to="/chat">Chat</Link>
               </li>
             </ul>
-          </sidebar>
+          </aside>
           <article>
             <Switch>
               <Route exact path="/">

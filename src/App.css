@@ -38,7 +38,7 @@ body {
   display: flex;
   flex-flow: row wrap;
 }
-.App sidebar {
+.App aside {
   max-width: 200px;
   flex-basis: 20%;
   flex: 1 auto;
