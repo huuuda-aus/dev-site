@@ -35,5 +35,18 @@ body {
 }
 .App content {
   flex: 1 auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+.App sidebar {
+  max-width: 200px;
+  flex-basis: 20%;
+  flex: 1 auto;
+  padding: 15px;
+  background: #f6f7f8;
+  border-right: 1px solid #ddd;
+}
+.App article {
+  flex: 10 auto;
   padding: 15px;
 }
